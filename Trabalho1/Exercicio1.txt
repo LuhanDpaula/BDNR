@@ -1,0 +1,3 @@
+db.produtos.find({
+    preco: { $gte: 2000 }
+})

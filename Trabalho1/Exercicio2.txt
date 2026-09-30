@@ -1,0 +1,8 @@
+db.produtos.find({
+    $and: [
+        { categoria: "Móveis" },
+        { avaliacao: { $gt: 4.5 } }
+    ]
+})
+
+

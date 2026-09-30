@@ -1,0 +1,6 @@
+db.produtos.find({
+    $or: [
+        { preco: { $lt: 2000 } },
+        { estoque: { $gt: 20 } }
+    ]
+})
