@@ -1,0 +1,4 @@
+db.menu.updateOne(
+    { dish: "Sushi" },
+    { $set: { price: 35 } }
+);

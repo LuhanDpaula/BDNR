@@ -1,0 +1,5 @@
+db.menu.updateOne(
+    { dish: "Taco" },
+    { $set: { "ingredients.$[item]": "Chicken" } },
+    { arrayFilters: [{ item: "Beef" }] }
+);

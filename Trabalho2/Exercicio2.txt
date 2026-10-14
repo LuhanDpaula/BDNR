@@ -1,0 +1,4 @@
+db.menu.updateOne(
+    { dish: "Taco" },
+    { $push: { ingredients: "Guacamole" } }
+);

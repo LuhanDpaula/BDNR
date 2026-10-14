@@ -1,0 +1,4 @@
+db.menu.updateMany(
+    {},
+    { $mul: { price: 1.10 } }
+);
